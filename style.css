@@ -1,0 +1,143 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+ /* font-family: 'Kumbh Sans', sans-serif; */
+*,*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue';
+    font-family: 'Barlow';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+main{display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 375px;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    width: 327px;
+   /* height: 700px; */
+    margin-top: 160px;
+    margin-bottom: 160px;
+    border-radius: 23px;
+    position: relative;
+    padding-bottom: 30px;
+
+}
+.bothimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.mainIMG{
+    position: absolute;
+    top: -110px;
+}
+
+.mainimgBG{
+ position: relative;
+ left: 7px;
+ margin-bottom: 50px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.mainMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-content: center; */
+    padding-left: 25px;
+    padding-right: 25px;
+    gap: 20px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    
+    
+}
+.question:hover{
+    color: #F47B56;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.question{
+    font-family: 'Kumbh Sans';
+    font-size: 13px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.boxBottom{
+    display: none;
+    align-items: center;
+    align-content: center;
+    border-bottom: 2px solid #E8E8EA;
+    /* margin-top: 15px; */
+
+}
+
+.answer{
+    font-family:  'Kumbh Sans';
+    font-weight: 400;
+    font-size: 12px;
+    color: #787887;
+    text-align: start;
+}
+.act{
+    display: block;
+    /* margin-top: 15px; */
+
+}
+
+  .arrow{
+    transform: rotate(180deg);
+    transition: 1.5s;
+    
+  }
+  .arrow:hover{
+    cursor: pointer;
+  }
+  .rot{
+    transform: rotate(0deg);
+  }
+  .bold{
+    font-weight: 700;
+   
+  }
+.NB{
+    border-bottom: 2px solid #E8E8EA;
+}
+
+.imgsfordesk{
+    display: none;
+}

@@ -1,0 +1,33 @@
+@media screen and (min-width: 1400px){
+    main{
+        width: 100%;
+    }
+
+    .maincontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 920px;
+        height: 510px;
+    }
+    .imgsfordesk{
+        display: flex;
+        position: relative;
+    
+    }
+    .boxiko{
+        position: absolute;
+        left: -100px;
+        bottom: 30px;
+    }
+    .mainMain{
+        padding-right: 100px;
+        
+    }
+    .logo{
+        align-self: flex-start;
+    }
+
+
+    .bothimg{display: none;}
+}
